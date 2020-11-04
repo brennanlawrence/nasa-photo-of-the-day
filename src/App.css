@@ -37,3 +37,21 @@
     transform: rotate(360deg);
   }
 }
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.info-container {
+  background-color: lightgrey;
+  width: 80%;
+  
+}
+
+.img-container img {
+  margin: 30px;
+  margin-bottom: 10px;
+  width: 80%;
+
+}
