@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #fcfcfc;
 }
 
 .App-logo {
@@ -44,7 +45,6 @@
 }
 
 .info-container {
-  background-color: lightgrey;
   width: 80%;
   
 }

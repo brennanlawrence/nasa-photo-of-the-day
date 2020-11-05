@@ -1,17 +1,13 @@
 import React from "react";
-
+import { CardTitle, CardText } from "reactstrap";
 
 const Info = (props) => {
     const { todaysTitle, todaysText } = props;
 
     return (
-        <div className="info-container">
-            <h3 className="title">
-                {todaysTitle}
-            </h3>
-            <p className="text">
-                {todaysText}
-            </p>
+        <div>
+            <CardTitle tag="h3">{todaysTitle}</CardTitle>
+            <CardText>{todaysText}</CardText>
         </div>
     );
 };
